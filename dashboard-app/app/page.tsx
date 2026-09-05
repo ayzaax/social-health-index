@@ -12,7 +12,7 @@ export default function HomePage() {
     <main className="bg-[#F2EFE9] text-[#2E2A24]">
       <nav className="fixed inset-x-0 top-0 z-50 h-[60px] border-b border-[#D6D0C4]/80 bg-[#F2EFE9]/90 backdrop-blur-md">
         <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-6 lg:px-10">
-          <a href="#inicio" className="font-serif text-2xl">Parallax</a>
+          <a href="#inicio" className="font-serif text-2xl">CodeHealth</a>
           <div className="flex items-center gap-5 text-sm font-medium text-[#5C5546] sm:gap-8">
             <a className="transition hover:text-[#B85C38]" href="#mapa">Mapa</a>
             <a className="transition hover:text-[#B85C38]" href="#metodologia">Metodología</a>
@@ -24,7 +24,7 @@ export default function HomePage() {
       <section id="inicio" className="flex min-h-screen items-center pt-[60px]">
         <div className="mx-auto grid w-full max-w-7xl gap-12 px-6 py-20 md:grid-cols-[3fr_2fr] md:px-10">
           <div className="flex flex-col justify-center">
-            <p className="mb-6 text-sm font-bold uppercase tracking-[0.22em] text-[#B85C38]">Parallax · Vulnerabilidad sociosanitaria</p>
+            <p className="mb-6 text-sm font-bold uppercase tracking-[0.22em] text-[#B85C38]">CodeHealth · Vulnerabilidad sociosanitaria</p>
             <h1 className="max-w-4xl font-serif text-5xl leading-[0.98] md:text-7xl">En Estados Unidos, tu código postal predice tu salud.</h1>
             <p className="mt-8 max-w-3xl text-xl leading-relaxed text-[#555047]">Analizamos 31,742 comunidades cruzando datos sociales y de salud del CDC y el Census. Descubrimos que dos códigos postales a 19 kilómetros pueden vivir realidades opuestas.</p>
             <div className="mt-10 flex flex-wrap gap-4">
@@ -92,7 +92,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <footer className="bg-[#5A6B3D] py-16 text-white"><div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-3 md:px-10"><div><p className="font-serif text-3xl">Parallax</p><p className="mt-3 text-white/70">Vulnerabilidad Sociosanitaria en EUA</p></div><div><p className="font-semibold">Datos</p><p className="mt-3 leading-7 text-white/70">CDC PLACES<br />ACS 2017–2021<br />US Census Bureau</p></div><div><p className="font-semibold">Proyecto</p><p className="mt-3 leading-7 text-white/70">DataRush 2026<br />DSC Tec de Monterrey<br /><a className="underline hover:text-white" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></p></div></div></footer>
+      <footer className="bg-[#5A6B3D] py-16 text-white"><div className="mx-auto grid max-w-7xl gap-10 px-6 md:grid-cols-3 md:px-10"><div><p className="font-serif text-3xl">CodeHealth</p><p className="mt-3 text-white/70">Vulnerabilidad Sociosanitaria en EUA</p></div><div><p className="font-semibold">Datos</p><p className="mt-3 leading-7 text-white/70">CDC PLACES<br />ACS 2017–2021<br />US Census Bureau</p></div><div><p className="font-semibold">Proyecto</p><p className="mt-3 leading-7 text-white/70">DataRush 2026<br />DSC Tec de Monterrey<br /><a className="underline hover:text-white" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a></p></div></div></footer>
     </main>
   );
 }

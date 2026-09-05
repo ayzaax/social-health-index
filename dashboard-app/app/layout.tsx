@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Parallax · Vulnerabilidad Sociosanitaria EUA",
-  description: "Explora cómo la vulnerabilidad social y la carga de salud cambian entre 31,742 comunidades de Estados Unidos.",
+  title: "CodeHealth — Vulnerabilidad Sociosanitaria en EUA",
+  description: "Herramienta pública que revela desigualdades de salud a nivel código postal en Estados Unidos",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
