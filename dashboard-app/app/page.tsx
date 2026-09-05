@@ -1,7 +1,7 @@
 import Sidebar from "./Sidebar";
 import KpiCard from "./KpiCard";
 import ChartCard from "./ChartCard";
-
+//Creacion de dashboard
 export default function DashboardPage() {
   return (
     <div className="flex min-h-screen bg-[#F2EFE9]">
