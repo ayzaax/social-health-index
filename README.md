@@ -153,5 +153,3 @@ Construido durante **DataRush 2026 — DSC Tec de Monterrey**.
 MIT · Datos originales bajo términos del CDC y US Census Bureau.
 
 ---
-
-_"Los otros equipos muestran certeza. Nosotros mostramos honestidad."_
