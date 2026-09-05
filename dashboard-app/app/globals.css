@@ -1,7 +1,12 @@
+@import "mapbox-gl/dist/mapbox-gl.css";
 @import "tailwindcss";
 
 body {
   font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .font-serif {
